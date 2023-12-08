@@ -8,9 +8,10 @@ To see a minimal fullstack code example of this guide, see this demo: https://gi
 
 We will use the example of an Avatar upload.
 
-In this fullstack sample we will encode our images as base64 strings BEFORE uploading them to the API. So we will do the conversion from BINARY to STRING in the frontend.
+In this fullstack sample we will encode our images as base64 strings BEFORE uploading them to the API. 
+So we will convert the image, the user uploades in the frontend, from BINARY to STRING.
 
-This way we do not need to send "multipart formdata", do not need to use the "FormData" class to send data and just upload all our form data, including the image, as a JSON object as usual, which simplifies the overall workflow quite a bit.
+This simplifies the overall workflow between Frontend & Backend quite a lot.
 
 Also in the backend we then do not need to parse binary data anymore. 
 
