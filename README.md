@@ -17,7 +17,7 @@ Also in the backend we then do not need to parse binary data anymore.
 
 We can simply upload directly the received base64 string to our file cloud provider. We just forward it, without any processing.
 
-This way we can completely skip classical file parsing middleware like Multer.
+This way we can completely skip classical file parsing middleware in the backend like Multer.
 
 ## Steps 
 
